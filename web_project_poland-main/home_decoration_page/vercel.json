@@ -1,6 +1,5 @@
 {
   "version": 2,
-  "rootDirectory": "web_project_poland-main/home_decoration_page",
   "builds": [
     {
       "src": "index.html",
