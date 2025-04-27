@@ -1,6 +1,6 @@
 <template>
     
-      <img :src="product.img" alt="product" @click="handleClick" />
+      <img :src="product.img" alt="product" @click="handleClick" loading="lazy" />
       <h4 @click="handleClick">{{ product.product_name }}</h4>
       <h2>Price: {{ product.price }} $</h2>
    

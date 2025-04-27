@@ -7,7 +7,7 @@
           decor that bring comfort and personality to your space.
         </p>
       </div>
-      <img src="/imgs/main_image_home.jpg" alt="" />
+      <img src="/imgs/main_image_home.jpg" alt="" loading="lazy"  />
     </section>
   
     <div class="main_categories_section">
@@ -17,22 +17,22 @@
       </h2>
       <div class="category-container">
   <router-link to="/storage" class="category">
-    <img src="/imgs/image-e312bbe9c6d348c5bb980207e0701bd4.webp" alt="Storage" />
+    <img src="/imgs/image-e312bbe9c6d348c5bb980207e0701bd4.webp" alt="Storage" loading="lazy"  />
     <div class="category-overlay">Storage</div>
   </router-link>
 
   <router-link to="/furniture" class="category">
-    <img src="/imgs/Furniture.webp" alt="Furniture" />
+    <img src="/imgs/Furniture.webp" alt="Furniture" loading="lazy"  />
     <div class="category-overlay">Furniture</div>
   </router-link>
 
   <router-link to="/beds" class="category">
-    <img src="/imgs/Beds.jpg" alt="Beds" />
+    <img src="/imgs/Beds.jpg" alt="Beds" loading="lazy" />
     <div class="category-overlay">Beds</div>
   </router-link>
 
   <router-link to="/decoration" class="category">
-    <img src="/imgs/Decoration.webp" alt="Decoration" />
+    <img src="/imgs/Decoration.webp" alt="Decoration" loading="lazy" />
     <div class="category-overlay">Decoration</div>
   </router-link>
 </div>

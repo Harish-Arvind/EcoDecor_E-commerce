@@ -79,7 +79,7 @@
           :key="product.id"
           class="single_product"
         >
-          <img :src="product.img" alt="Product Image" /> <br />
+          <img :src="product.img" alt="Product Image" loading="lazy" /> <br />
           <div class="single_product_details">
             <p><strong>ID:</strong> {{ product.id }}</p>
             <p><strong>Product Name:</strong> {{ product.product_name }}</p>

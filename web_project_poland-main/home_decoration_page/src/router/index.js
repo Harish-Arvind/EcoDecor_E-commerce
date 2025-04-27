@@ -1,15 +1,15 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from "../views/Home.vue"; 
-import Beds from '../views/Beds.vue';
-import Decoration from '../views/Decoration.vue';
-import Furniture from '../views/Furniture.vue';
-import Storage from '../views/Storage.vue';
-import Cart from '../views/Cart.vue';
-import Individual_product from '../views/Individual_product.vue';
-import Registry from "../views/Registry.vue";
-import Login from "../views/Login.vue";
-import ProductManagement from "../views/ProductManagement.vue";
-import UserManagement from "../views/UserManagement.vue";
+const Home = () => import('../views/Home.vue');
+const Beds = () => import('../views/Beds.vue');
+const Decoration = () => import('../views/Decoration.vue');
+const Furniture = () => import('../views/Furniture.vue');
+const Storage = () => import('../views/Storage.vue');
+const Cart = () => import('../views/Cart.vue');
+const Individual_product = () => import('../views/Individual_product.vue');
+const Registry = () => import('../views/Registry.vue');
+const Login = () => import('../views/Login.vue');
+const ProductManagement = () => import('../views/ProductManagement.vue');
+const UserManagement = () => import('../views/UserManagement.vue');
 
 const routes = [ 
     {

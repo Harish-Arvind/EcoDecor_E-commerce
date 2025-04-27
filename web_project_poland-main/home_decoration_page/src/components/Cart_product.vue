@@ -1,6 +1,6 @@
 <template>
     <div class="cart_product">
-        <img :src="product.img" alt="product">
+        <img :src="product.img" alt="product" loading="lazy" >
         <div class="product_details">
             <h2 @click="handleClick">{{ product.product_name }}</h2>
             <h4>Category : {{ product.category }}</h4>

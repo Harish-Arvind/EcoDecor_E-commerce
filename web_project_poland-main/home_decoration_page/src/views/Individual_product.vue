@@ -2,7 +2,7 @@
   <div class="product_details_page">
     <div v-if="!product">Loading product details...</div>
     <div v-else class="product_container">
-      <img :src="product.img" alt="Product Image" />
+      <img :src="product.img" alt="Product Image" loading="lazy" />
       <div class="product_details">
         <h1>{{ product.product_name }}</h1>
         <hr />
