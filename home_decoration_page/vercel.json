@@ -1,5 +1,5 @@
 {
-  "rootDirectory": "web_project_poland-main/home_decoration_page",
+  "rootDirectory": "home_decoration_page",
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "framework": "vite",

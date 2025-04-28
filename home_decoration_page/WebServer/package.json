@@ -19,6 +19,7 @@
     "express": "^4.21.2",
     "jwt-decode": "^4.0.0",
     "mysql2": "^3.11.4",
+    "portfinder": "^1.0.36",
     "sequelize": "^6.37.5"
   }
 }

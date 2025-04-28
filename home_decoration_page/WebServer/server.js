@@ -60,8 +60,30 @@ app.get("/", (req, res) => {
   res.json({ message: "Welcome to the Home Decoration API!" });
 });
 
+// // Start the server
+// const PORT = process.env.PORT || 5000;
+// app.listen(PORT, () => {
+//   console.log(`Server is running on port ${PORT}.`);
+// });
+
 // Start the server
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}.`);
-});
+const PORT = process.env.PORT || 5000; // Static port fallback
+
+// SINGLE app.listen with dynamic port finder
+const portfinder = require("portfinder");
+
+portfinder
+    .getPortPromise() // Find an available port dynamically
+    .then((port) => {
+      app.listen(port, () => {
+        console.log(`Server running on http://localhost:${port}`);
+      });
+    })
+    .catch((err) => {
+      console.error("Error finding an available port:", err);
+      // Default to a static port if portfinder fails
+      app.listen(PORT, () => {
+        console.log(`Fallback: Server is running on port ${PORT}.`);
+      });
+    });
+
