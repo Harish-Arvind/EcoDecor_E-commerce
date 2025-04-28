@@ -44,7 +44,7 @@
       add_product_to_cart(item) {
         const existingProduct = this.cart_products.find((product) => product.id === item.id);
         if(item.quantity_available===item.quantity_cart){
-          alert("There are no more products of this kind available")
+          alert("There are no more Eco Friendly products of this kind available")
         }
         if (item.quantity_available > item.quantity_cart) {
           if(existingProduct){

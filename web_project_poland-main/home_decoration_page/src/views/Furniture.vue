@@ -2,7 +2,7 @@
     <div class="Furniture">
       <div class="banner">
         <h1>Furniture</h1>
-        <p>Transform your home with our wide range of furniture. From elegant sofas to modern dining sets, find pieces that match your style and bring comfort to every room.</p>
+        Transform your home with our wide range of sustainable furniture. From elegant, eco-friendly sofas to modern dining sets, find pieces that match your style and bring comfort to every room, all while supporting a greener planet.
     </div>
       
       <SearchableCatalog

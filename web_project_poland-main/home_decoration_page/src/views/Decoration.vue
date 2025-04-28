@@ -2,7 +2,7 @@
     <div class="Decoration">
       <div class="banner">
         <h1>Decoration</h1>
-        <p>Add a personal touch to your space with our stunning decor pieces. Explore our collection of wall art, vases, and accents to create a home that reflects your unique style.</p>
+        Add a personal touch to your space with our sustainable decor pieces. Explore our collection of eco-friendly wall art, vases, and accents to create a home that reflects your unique style while caring for the planet.
     </div>
       
       <SearchableCatalog

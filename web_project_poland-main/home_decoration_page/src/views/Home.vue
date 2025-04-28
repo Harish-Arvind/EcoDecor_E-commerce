@@ -1,10 +1,9 @@
 <template>
     <section class="main_banner">
       <div class="slogan">
-        <h1>Style Your Space, Love Your Place</h1>
+        <h1>Style Your Space, Sustain Your Planet with EcoDecor</h1>
         <p>
-          Transform every corner of your home with unique, stylish furniture and
-          decor that bring comfort and personality to your space.
+          Transform your home with eco-friendly furniture and decor that bring comfort, natural beauty, and a positive impact to every corner of your space
         </p>
       </div>
       <img src="/imgs/main_image_home.jpg" alt="" loading="lazy"  />
@@ -12,8 +11,7 @@
   
     <div class="main_categories_section">
       <h2>
-        Discover the essentials to enhance every room and start creating the home
-        of your dreams.
+        Discover eco-friendly essentials to enrich every room and create the sustainable home of your dreams
       </h2>
       <div class="category-container">
   <router-link to="/storage" class="category">
@@ -38,7 +36,7 @@
 </div>
 
     </div>
-    <h2 class="Home_catalog">Explore our catalog</h2>
+    <h2 class="Home_catalog">Explore our Ecorations</h2>
     <Catalog_product :add_product_to_cart="add_product_to_cart" :products="products" :Page_category="Page_category" />
   </template>
   

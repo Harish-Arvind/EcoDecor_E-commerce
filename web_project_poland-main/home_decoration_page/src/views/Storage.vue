@@ -2,7 +2,7 @@
   <div class="Storage_page">
     <div class="banner">
       <h1>Storage</h1>
-      <p>Organize your space effortlessly with our versatile storage solutions. From sleek shelves to practical cabinets, find everything you need to keep your home tidy and stylish.</p>
+      Organize your space effortlessly with our versatile, sustainable storage solutions. From sleek, eco-friendly shelves to practical, green cabinets, find everything you need to keep your home tidy, stylish, and environmentally conscious.
     </div>
     
     <SearchableCatalog

@@ -1,6 +1,6 @@
 <template>
   <div class="product-management">
-    <h1>Product Management</h1>
+    <h1>Eco Product Management</h1>
     <div class="Form_div">
       <form @submit.prevent="createProduct">
         <label for="product_name">Product Name</label>

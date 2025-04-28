@@ -2,7 +2,9 @@
     <div class="Beds">
       <div class="banner">
         <h1>Beds</h1>
-        <p>Discover the perfect bed for restful nights and refreshed mornings. Whether you prefer a minimalist frame or a luxurious headboard, our selection offers comfort and style for every bedroom.</p>
+        <p>
+          Discover the perfect eco-friendly bed for restful nights and refreshed mornings. Whether you prefer a minimalist, sustainable frame or a luxurious, natural-material headboard, our selection offers comfort, style, and environmental care for every bedroom.
+        </p>
     </div>
       
       <SearchableCatalog

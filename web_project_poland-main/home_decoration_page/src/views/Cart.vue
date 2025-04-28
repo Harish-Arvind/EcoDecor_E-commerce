@@ -1,6 +1,6 @@
 <template>
   <div class="cart_container">
-    <h2>{{ cart_products.length === 0 ? 'Your cart is empty' : 'This is your cart' }}</h2>
+    <h2>{{ cart_products.length === 0 ? 'Your Eco cart is empty' : 'This is your Eco cart' }}</h2>
     <ul>
       <li class="car_product_container" v-for="item in cart_products" :key="item.id">
         <Cart_product 
